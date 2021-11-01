@@ -3,6 +3,7 @@ import sys, pygame
 pygame.init()
 
 win = pygame.display.set_mode((400,400))
+displayName = pygame.display.set_caption("Ping Pong")
 x = 200
 y = 200
 
